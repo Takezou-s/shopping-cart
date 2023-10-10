@@ -1,0 +1,18 @@
+a {
+  color: unset;
+  text-decoration: unset;
+}
+
+.main-carousel .owl-dots{
+  background: #00000080;
+  position: absolute;
+  margin: auto;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 7px;
+}
