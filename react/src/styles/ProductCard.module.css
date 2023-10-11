@@ -1,0 +1,37 @@
+.product-card {
+}
+
+.product-card:hover .favorite-icon:not(.favorited) {
+  color: var(--bs-primary);
+}
+
+.product-card:hover .product-title,
+.product-card:hover .product-price {
+  text-decoration: underline;
+}
+
+.product-card:hover .add-to-cart {
+  opacity: 1;
+}
+
+.favorite-icon {
+  color: var(--bs-gray-400);
+}
+
+.favorite-icon.favorited {
+  color: var(--bs-red);
+}
+
+.product-img {
+}
+
+.add-to-cart {
+  transition: opacity .2s ease 0s;
+  opacity: 0;
+}
+
+.product-title {
+}
+
+.product-price {
+}
